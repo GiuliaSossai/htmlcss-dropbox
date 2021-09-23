@@ -187,3 +187,10 @@ section {
   margin-left: 10px;
   background-color: lightgrey;
 }
+
+/*third section*/
+.column-image {
+  min-height: 200px;
+  background-color: rgb(245, 197, 241);
+}
+
