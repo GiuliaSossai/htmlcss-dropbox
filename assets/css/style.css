@@ -1,5 +1,84 @@
+/**** gloabl rules ****/
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+/* utilities */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/***************** HEADER ******************+*/
+header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  background-color: #f3d47f; /*da togliere*/
+  padding: 0 10px;
+}
+
+.header-left {
+  float: left;
+  width: 50%;
+}
+
+.header-right  {
+  float: right;
+  width: 50%;
+  background-color: aqua;
+}
+
+
+/*header-left, logo*/
+.db-logo, .main-nav {
+  float: left;
+}
+
+.header-left .db-logo {
+  margin-right: 40px;
+  margin-top: 20px;  /* da sistemareeeeeeeeeeeeeeeeeeeeeeeeeee*/
+}
+
+/*header-left, menu*/
+.main-nav {
+  width: 70%;
+  vertical-align: middle;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.main-nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.main-nav ul li a:hover {
+  margin-bottom: 1px solid #000;
 }
