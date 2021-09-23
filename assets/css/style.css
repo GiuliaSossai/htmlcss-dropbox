@@ -96,17 +96,39 @@ header {
 
 /* jumbotron */
 .jumbotron {
-  min-height: 500px;
+ min-height: 900px;
   margin-top: 80px;
   background-color: #B4CFE7;
 }
 
-.jumbotron .content {
+.jumbotron h1 {
+  font-size: 100px;
+  font-weight: 900;
   padding-top: 60px;
-  margin: 0 20px;
+  margin: 0 30px;
 }
 
-.jumbotron .content h1 {
-  font-size: 100px;
-  font-weight: 800;
+.jumbotron {
+  position: relative;
+}
+
+.textarea {
+  position: absolute;
+  top: 45%;
+  left: 30px;
+  background-color: sandybrown;
+  width: 30%;
+}
+
+.textarea p {
+  padding: 20px 0 40px 0;
+}
+
+.jumbotron-image {
+  width: 60%;
+  min-height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 45%;
+  right: 30px;
 }
