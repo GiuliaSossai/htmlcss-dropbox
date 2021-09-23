@@ -15,6 +15,7 @@ body {
 
 .container {
   width: 80%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -96,7 +97,6 @@ header {
 
 /* jumbotron */
 .jumbotron {
- min-height: 900px;
   margin-top: 80px;
   background-color: #B4CFE7;
 }
@@ -114,10 +114,6 @@ header {
   font-weight: 900;
   padding-top: 60px;
   margin: 0 30px;
-}
-
-.jumbotron {
-  position: relative;
 }
 
 .textarea, .image {
@@ -153,3 +149,25 @@ header {
   top: 45%;
   right: 30px;
 }*/
+
+/*first section */
+section {
+  min-height: 500px;
+  background-color: rgb(240, 210, 171);
+  margin-bottom: 30px; /*tutto da togliere!!!!*/
+}
+
+.column {
+  float: left;
+  width: calc(100% / 3 - 4px);
+  margin-bottom: 10px;
+  background-color: rgb(174, 226, 250);
+}
+
+.column.middle {
+  margin: 0 5px;
+}
+
+.big.column {
+  width: 100%;
+}
