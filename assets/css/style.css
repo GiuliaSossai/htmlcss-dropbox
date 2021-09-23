@@ -101,6 +101,14 @@ header {
   background-color: #B4CFE7;
 }
 
+.content {
+  width: 90%;
+  max-width: 1180px;
+  margin: 0 auto;
+  background-color: salmon;
+  min-height: 300px;
+}
+
 .jumbotron h1 {
   font-size: 100px;
   font-weight: 900;
@@ -112,7 +120,19 @@ header {
   position: relative;
 }
 
+.textarea, .image {
+  display: inline-block;
+}
+
 .textarea {
+  width: 30%
+}
+
+.image {
+  width: 65%;
+}
+
+/*.textarea {
   position: absolute;
   top: 45%;
   left: 30px;
@@ -126,9 +146,10 @@ header {
 
 .jumbotron-image {
   width: 60%;
+  height: 400px;
   min-height: 100px;
   background-color: yellow;
   position: absolute;
   top: 45%;
   right: 30px;
-}
+}*/
