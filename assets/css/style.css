@@ -120,11 +120,11 @@ header {
   display: inline-block;
 }
 
-.textarea {
+.jumbotron .textarea {
   width: 30%
 }
 
-.image {
+.jumbotron .image {
   width: 65%;
 }
 
@@ -170,4 +170,20 @@ section {
 
 .big.column {
   width: 100%;
+}
+
+/*second section*/
+.image1, .text1 {
+  float: left;
+}
+
+.image1 {
+  width: 60%;
+  background-color: lightgrey;
+}
+
+.text1 {
+  width: 35%;
+  margin-left: 10px;
+  background-color: lightgrey;
 }
