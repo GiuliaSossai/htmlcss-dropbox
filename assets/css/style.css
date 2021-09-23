@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #000;
 }
 
@@ -52,13 +52,12 @@ header {
 }
 
 .header-left .db-logo {
-  margin-right: 40px;
-  margin-top: 20px;  /* da sistemareeeeeeeeeeeeeeeeeeeeeeeeeee*/
+  padding-right: 40px;
+  margin: auto 0;  /* da sistemareeeeeeeeeeeeeeeeeeeeeeeeeee*/
 }
 
 /*header-left, menu*/
 .main-nav {
-  width: 70%;
   vertical-align: middle;
 }
 
@@ -66,9 +65,9 @@ header {
   list-style: none;
 }
 
-.main-nav ul li {
+.main-nav.left ul li {
   display: inline-block;
-  padding-right: 40px;
+  margin-right: 80px;
 }
 
 .main-nav ul li a {
@@ -81,4 +80,24 @@ header {
 
 .main-nav ul li a:hover {
   margin-bottom: 1px solid #000;
+}
+
+/*header-right, menu*/
+.main-nav.right {
+  float: left;
+}
+
+#inizia {
+  float: right;
+}
+
+.main-nav.right ul li {
+  display: inline-block;
+  margin-left: 80px;
+}
+
+
+.jumbotron {
+  min-height: 500px;
+  background-color: #B4CFE7;
 }
