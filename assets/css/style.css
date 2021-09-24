@@ -165,7 +165,7 @@ header {
 /*first section */
 section {
   min-height: 500px;
-  background-color: rgb(240, 210, 171);
+  background-color: rgb(154, 255, 159);
   margin: 50px 0; /*tutto da togliere!!!!*/
 }
 
@@ -175,6 +175,7 @@ section {
   min-height: 100px;   /*DA TOGLIEREEEEEEEEEEEE*/
   background-color: rgb(174, 226, 250);
   border: 1px solid grey;
+  margin-bottom: 30px;
 }
 
 .column-top {
@@ -187,12 +188,14 @@ section {
   padding: 30px 10px 30px 10px;
 }
 
-.column-body h3 {
+.column-body h3, .column-left h3 {
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .little-title {
   font-weight: bold;
+  margin: 10px 0;
 }
 
 .time {
@@ -226,8 +229,27 @@ section {
   margin: 0 5px;
 }
 
-.big.column {
+/*big column*/
+.low.column {
   width: 100%;
+}
+
+.column-left, .column-right {
+  display: inline-block;
+}
+
+.column-left {
+  width: 70%;
+  float: left
+}
+
+.column-right {
+  width: 30%;
+  float: right;
+}
+
+.column-left p{
+  margin: 10px 0;
 }
 
 /*second section*/
