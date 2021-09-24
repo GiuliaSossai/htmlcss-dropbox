@@ -14,7 +14,7 @@ body {
 /* utilities */
 
 .container {
-  width: 80%;
+  width: 85%;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -23,6 +23,10 @@ body {
   content: '';
   display: table;
   clear: both;
+}
+
+.section-title {
+  padding: 20px 0;
 }
 
 .row {
@@ -39,6 +43,15 @@ body {
 
 .btn:hover {
   background-color: rgba(0, 0, 0, .2);
+}
+
+h2.subtitles {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.text-link, .fa-check{
+  color: #0061FF;
 }
 
 /***************** HEADER ******************+*/
@@ -160,9 +173,54 @@ section {
   float: left;
   width: calc(100% / 3 - 4px);
   min-height: 100px;   /*DA TOGLIEREEEEEEEEEEEE*/
-  margin-bottom: 10px;
   background-color: rgb(174, 226, 250);
+  border: 1px solid grey;
 }
+
+.column-top {
+  text-align: center;
+  padding: 3px 0;
+  border-bottom: 1px solid grey;
+}
+
+.column-body {
+  padding: 30px 10px 30px 10px;
+}
+
+.column-body h3 {
+  font-size: 18px;
+}
+
+.little-title {
+  font-weight: bold;
+}
+
+.time {
+  color: gray;
+}
+
+/*column list*/
+.column-body ul {
+  margin: 20px 0;
+  list-style: none;
+}
+
+.column-body ul li {
+  padding: 5px 0;
+}
+
+#gratis {
+  margin: 20px 0;
+}
+/*column btn    NON PRENDE TUTTA LARGHEZZA COLUMN BODY!!
+.btn-box {
+  width: 100%;
+}*/
+
+/*.line {       DA RIVEDERE
+  width: 40px;
+  border-bottom: 1 px solid gray;
+}*/
 
 .column.middle {
   margin: 0 5px;
