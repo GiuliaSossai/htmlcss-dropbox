@@ -25,14 +25,6 @@ body {
   clear: both;
 }
 
-.section-title {
-  padding: 20px 0;
-}
-
-.row {
-
-}
-
 .btn {
   font-size: 16px;
   color: white;
@@ -52,6 +44,10 @@ body {
   border: 1px solid #000;
 }
 
+.section-title {
+  padding: 20px 0;
+}
+
 h2.subtitles {
   font-size: 30px;
   margin: 20px 0;
@@ -66,30 +62,37 @@ header {
   width: 100%;
   min-width: 1088px;
   height: 80px;
-  line-height: 80px;
+  
   position: fixed;
   top:0;
   left:0;
   padding: 0 20px;
-  background-color: rgb(252, 210, 210);
+  background-color: white;
 }
 
-.header-left {
+header .row {
+  height: 78px;
+  line-height: 78px;
+}
+
+.row .header-left {
   float: left;
   width: 50%;
 }
 
-.header-right  {
+.row .header-right  {
   float: right;
   width: 50%;
 }
 
-
 /*header-left*/
 .header-left .db-logo {
   float: left;
-  vertical-align: middle;
   margin-right: 30px;
+}
+
+.db-logo img {
+  vertical-align: middle;
 }
 
 .main-nav ul {
@@ -105,13 +108,15 @@ header {
   color: #000;
   text-decoration: none;
   font-size: 16px;
-  height: 80px;
-  line-height: 80px;
+  display: inline-block;
+  box-sizing: content-box;
+  height: 78px;
+  line-height: 78px;
   vertical-align: middle;
 }
 
 .main-nav ul li a:hover {
-  margin-bottom: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 /*header-right */
@@ -120,11 +125,15 @@ header {
   margin-left: 30px;
 }
 
+#inizia .btn{
+  display: inline;
+}
+
 /* jumbotron */
 .jumbotron {
   margin-top: 80px;
   background-color: #B4CFE7;
-  max-height: 600px; /*messa per far uscire img - è giusto?*/
+  max-height: 600px;
 }
 
 .content {
@@ -170,17 +179,9 @@ header {
 }
 
 /*first section */
-section {
-  min-height: 500px;
-  background-color: rgb(154, 255, 159);
-  margin: 50px 0; /*tutto da togliere!!!!*/
-}
-
 .column {
   float: left;
   width: calc(100% / 3 - 4px);
-  min-height: 100px;   /*DA TOGLIEREEEEEEEEEEEE*/
-  background-color: rgb(174, 226, 250);
   border: 1px solid grey;
   margin-bottom: 30px;
 }
@@ -315,3 +316,8 @@ section {
   background-color: rgb(238, 172, 74);
 }
 
+
+
+.bg-color {
+  background-color: salmon;
+}
