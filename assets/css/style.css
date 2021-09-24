@@ -221,17 +221,15 @@ header .row {
 }
 
 #gratis {
+  
   margin: 20px 0;
 }
-/*column btn    NON PRENDE TUTTA LARGHEZZA COLUMN BODY!!
-.btn-box {
-  width: 100%;
-}*/
 
-/*.line {       DA RIVEDERE
-  width: 40px;
-  border-bottom: 1 px solid gray;
-}*/
+.column .btn.btn-box {
+  width: 100%;
+  text-align: center;
+}
+
 
 .column.middle {
   margin: 0 5px;
@@ -251,13 +249,17 @@ header .row {
   float: left
 }
 
+.column-left p{
+  margin: 10px 0;
+}
+
 .column-right {
   width: 30%;
   float: right;
 }
 
-.column-left p{
-  margin: 10px 0;
+#contatta {
+  margin-top: 20px;
 }
 
 /*second section*/
