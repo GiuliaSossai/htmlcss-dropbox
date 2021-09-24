@@ -25,6 +25,10 @@ body {
   clear: both;
 }
 
+section {
+  margin: 50px 0;
+}
+
 .btn {
   font-size: 16px;
   color: white;
@@ -35,7 +39,7 @@ body {
 }
 
 .btn:hover {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(123, 161, 243);
 }
 
 .btn.blank-btn {
@@ -50,7 +54,7 @@ body {
 
 h2.subtitles {
   font-size: 30px;
-  margin: 20px 0;
+  margin-bottom: 40px;
 }
 
 .text-link, .fa-check{
@@ -179,6 +183,10 @@ header .row {
 }
 
 /*first section */
+label {
+  padding-right: 20px;
+}
+
 .column {
   float: left;
   width: calc(100% / 3 - 4px);
@@ -193,12 +201,12 @@ header .row {
 }
 
 .column-body {
-  padding: 30px 10px 30px 10px;
+  padding: 20px 10px 30px 10px;
 }
 
 .column-body h3, .column-left h3 {
   font-size: 18px;
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .little-title {
@@ -208,11 +216,12 @@ header .row {
 
 .time {
   color: gray;
+  margin: 10px 0;
 }
 
 /*column list*/
 .column-body ul {
-  margin: 20px 0;
+  margin: 50px 0;
   list-style: none;
 }
 
@@ -221,7 +230,6 @@ header .row {
 }
 
 #gratis {
-  
   margin: 20px 0;
 }
 
@@ -229,7 +237,6 @@ header .row {
   width: 100%;
   text-align: center;
 }
-
 
 .column.middle {
   margin: 0 5px;
@@ -263,16 +270,16 @@ header .row {
 }
 
 /*second section*/
-.image1, .text1 {
+.second-image, .second-textarea {
   float: left;
   width: 50%;
 }
 
-.image1 img{
+.second-image img{
   width: 100%;
 }
 
-.text1 {
+.second-textarea {
   padding-left: 10px;
   margin: 30px 0; 
   background-color: lightgrey;
