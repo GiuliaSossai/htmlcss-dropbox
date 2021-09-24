@@ -45,6 +45,12 @@ body {
   background-color: rgba(0, 0, 0, .2);
 }
 
+.btn.blank-btn {
+  color: #000;
+  background-color: white;
+  border: 1px solid #000;
+}
+
 h2.subtitles {
   font-size: 30px;
   margin: 20px 0;
@@ -258,11 +264,12 @@ section {
   width: 50%;
 }
 
-.image1 {
-  background-color: lightgrey;
+.image1 img{
+  width: 100%;
 }
 
 .text1 {
+  padding-left: 10px;
   background-color: lightgrey;
 }
 
