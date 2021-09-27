@@ -444,20 +444,32 @@ label {
 
 
 /*fifth section - FAQ*/
+.faq {
+  border-bottom: 1px solid #D3D3D6;
+  margin-bottom: 80px;
+}
+
+.faq h3{
+  padding-bottom: 30px;
+}
+
 .faq-row {
   position: relative;
-  min-height: 100px;
-  background-color: rgb(73, 128, 160);
+  border-top: 1px solid #D3D3D6;
 }
 
 .question {
-  position: absolute;
-  left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 30px 0;
+  display: inline-block;
 }
 
 .item {
+  padding: 30px 0;
   position: absolute;
-  right: 0;
+  right: 30px;
+  display: inline-block;
 }
 
 /*********** FOOTER *********/
