@@ -363,7 +363,7 @@ label {
 }
 
 .square:active {
-  background-color: magenta;
+  border: 8px solid rgba(230, 224, 224, .3);
 }
 
 .square img {
