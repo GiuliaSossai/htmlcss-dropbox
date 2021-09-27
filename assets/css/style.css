@@ -325,25 +325,27 @@ label {
 .half-subtitles {
   width: 50%;
   float: left;
+  padding: 20px 0;s
 }
 
+
+
 /* logos */
-.big-square, .textarea {
+.big-square, .textarea-logo {
   float: left;
 }
 
 .big-square {
   width: 30vw;
   height: 30vw;
-  background-color: salmon;
   position: relative;
 }
 
-.textarea {
+.textarea-logo {
   width: 40vw;
   height: 30vw;
   text-align: left;
-  background-color: aqua;
+  background-color: #F5F5F5;
   overflow: auto;
   padding: 0 20px;
 }
@@ -351,31 +353,38 @@ label {
 .square {
   width: 50%;
   height: 50%;
-  position: absolute;
 }
 
 .square.top-left {
+  float: left;
   top: 0;
   left: 0;
   background-color: rgb(127, 218, 218);
 }
 
 .square.top-right {
+  float: right;
   top: 0;
   right: 0;
   background-color: rgb(243, 240, 201);
 }
 
 .square.bottom-left {
+  float: left;
   bottom: 0;
   left: 0;
   background-color: rgb(238, 171, 223);
 }
 
 .square.bottom-right {
+  float: right;
   bottom: 0;
   right: 0;
   background-color: rgb(181, 180, 240);
+}
+
+.square img {
+  width: 100%;
 }
 
 
