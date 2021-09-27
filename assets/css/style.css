@@ -150,17 +150,27 @@ header .row {
 .dropdown-content {
   position: absolute;
   display: none;
-  background-color: white;
+  background-color: rgb(236, 232, 232);
+  /*min-width: 100px;
+  min-height: 100px;*/
 }
 
 .dropdown-content a {
-  color: black;
+  text-align: center;
   padding: 3px 5px;
+  color: black;
   text-decoration: none;
   display: block;
 }
+.sub-menu.dark {
+  background-color: rgb(192, 191, 191);
+}
 
-#ciao:hover .dropdown-contet {
+.li-menu:hover .sub-menu{
+  border: none;
+}
+
+.li-menu:hover .dropdown-content {
   display: block;
 }
 
