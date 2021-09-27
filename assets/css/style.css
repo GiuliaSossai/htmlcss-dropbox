@@ -151,8 +151,6 @@ header .row {
   position: absolute;
   display: none;
   background-color: rgb(236, 232, 232);
-  /*min-width: 100px;
-  min-height: 100px;*/
 }
 
 .dropdown-content a {
@@ -577,7 +575,7 @@ footer {
 footer h3{
   font-size: 16px;
   font-weight: bold;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 footer ul {
@@ -585,7 +583,7 @@ footer ul {
 }
 
 footer ul li {
-  padding-bottom: 8px;
+  padding-bottom: 4px;
 }
 
 footer ul li a {
