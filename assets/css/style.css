@@ -353,38 +353,60 @@ label {
 .square {
   width: 50%;
   height: 50%;
+  position: relative;
+}
+
+.square img {
+  width: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  filter: invert(1);
 }
 
 .square.top-left {
   float: left;
   top: 0;
   left: 0;
-  background-color: rgb(127, 218, 218);
+  background-color: #A2D39B;
 }
 
 .square.top-right {
   float: right;
   top: 0;
   right: 0;
-  background-color: rgb(243, 240, 201);
+  background-color: #62092C;
 }
 
 .square.bottom-left {
   float: left;
   bottom: 0;
   left: 0;
-  background-color: rgb(238, 171, 223);
+  background-color: #1C93CE;
 }
 
 .square.bottom-right {
   float: right;
   bottom: 0;
   right: 0;
-  background-color: rgb(181, 180, 240);
+  background-color: #F91B1D;
 }
 
-.square img {
-  width: 100%;
+.partner-right .square.top-left{
+  background-color: #D40120;
+}
+
+.partner-right .square.top-right {
+  background-color: #B4D0E7;
+}
+
+.partner-right .square.bottom-left {
+  background-color: #0C2481;
+}
+
+.partner-right .square.bottom-right {
+  background-color: #FED830;
 }
 
 
