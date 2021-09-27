@@ -142,15 +142,26 @@ header .row {
 }
 
 /* secondo bonus */
-
-.drop-down{
-  display: none;
-  width: 100%;
+.li-menu {
+  position: relative;
+  display: inline-block;
 }
 
-.main-nav ul li a:hover .drop-down {
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px 5px;
+  text-decoration: none;
   display: block;
-  z-index: 980;
+}
+
+#ciao:hover .dropdown-contet {
+  display: block;
 }
 
 /*header-right */
