@@ -71,6 +71,15 @@ h2.subtitles {
   color: #0061FF;
 }
 
+.line {
+  display: inline-block;
+  min-height: 20px;
+  width: 100px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+
 /***************** HEADER ******************+*/
 header {
   width: 100%;
@@ -342,15 +351,6 @@ label {
   height: 30vw;
 }
 
-.textarea-logo {
-  width: 40vw;
-  height: 30vw;
-  text-align: left;
-  background-color: #F5F5F5;
-  overflow: auto;
-  padding: 0 20px;
-}
-
 .square {
   width: 50%;
   height: 50%;
@@ -413,6 +413,29 @@ label {
 
 .partner-right .square.bottom-right {
   background-color: #FED830;
+}
+
+/* textarea (logo) */
+.textarea-logo {
+  width: 40vw;
+  height: 30vw;
+  text-align: left;
+  background-color: #F5F5F5;
+  overflow: auto;
+  padding: 30px;
+}
+
+.textarea-logo-image img{
+  width: 20%;
+}
+
+.textarea-logo .line {
+  border-bottom: 1px solid gray;
+}
+
+.textarea-logo p {
+  font-family: 14px;
+  margin: 20px 0;
 }
 
 
@@ -506,10 +529,6 @@ footer ul li a {
 }
 
 footer .line {
-  display: inline-block;
-  min-height: 20px;
-  width: 100px;
-  margin-bottom: 30px;
   border-bottom: 1px solid lightgray;
 }
 
