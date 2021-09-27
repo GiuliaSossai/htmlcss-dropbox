@@ -76,7 +76,7 @@ header {
   width: 100%;
   min-width: 1088px;
   height: 80px;
-  
+  z-index: 999;
   position: fixed;
   top:0;
   left:0;
@@ -325,10 +325,12 @@ label {
 .half-subtitles {
   width: 50%;
   float: left;
-  padding: 20px 0;s
+  padding: 30px 0;
 }
 
-
+.half-subtitles h2{
+  padding-bottom: 10px;
+}
 
 /* logos */
 .big-square, .textarea-logo {
@@ -338,7 +340,6 @@ label {
 .big-square {
   width: 30vw;
   height: 30vw;
-  position: relative;
 }
 
 .textarea-logo {
@@ -364,6 +365,11 @@ label {
   top: 50%;
   filter: invert(1);
 }
+
+/*.square-logo {        alternatica per centrare img
+  text-align: center;
+  vertical-align: middle;
+}*/
 
 .square.top-left {
   float: left;
@@ -415,6 +421,26 @@ label {
   background-color: #B4D0E7;
 }
 
+.box .half-subtitles {
+  color: #580000;
+}
+
+.half-subtitles {
+  width: 50%;
+  float: left;
+  padding: 50px 0;
+}
+
+.button-area {
+  width: 50%;
+  float: right;
+  text-align: right;
+  padding: 50px 0;
+}
+
+.button-area .btn.blank-btn {
+  border: none;
+}
 
 
 /*fifth section - FAQ*/
