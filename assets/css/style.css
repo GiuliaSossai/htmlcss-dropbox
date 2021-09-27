@@ -26,7 +26,7 @@ body {
 }
 
 section {
-  margin: 50px 0;
+  padding-top: 80px;
 }
 
 .btn {
@@ -51,7 +51,6 @@ section {
 .btn.blank-btn:hover {
   background-color: rgb(230, 224, 224);
 }
-
 
 .big-paragraph {
   line-height: 30px;
@@ -142,6 +141,18 @@ header .row {
   border-bottom: 1px solid #000;
 }
 
+/* secondo bonus */
+
+.drop-down{
+  display: none;
+  width: 100%;
+}
+
+.main-nav ul li a:hover .drop-down {
+  display: block;
+  z-index: 980;
+}
+
 /*header-right */
 .main-nav.right, #inizia {
   float: right;
@@ -154,9 +165,9 @@ header .row {
 
 /* jumbotron */
 .jumbotron {
-  margin-top: 80px;
+  padding-top: 80px;
   background-color: #B4CFE7;
-  max-height: 600px;
+  max-height: 680px;
 }
 
 .content {
@@ -173,7 +184,7 @@ header .row {
 
 /*jumbotron textarea*/
 .jumbotron .textarea {
-  width: 40%;
+  width: 35%;
   float: left;
 }
 
@@ -192,13 +203,12 @@ header .row {
 
 /*jumbotron image*/
 .jumbotron-image {
-  width: 60%;
+  width: 65%;
   float: right;
 }
 
 .jumbotron-image img {
   width: 100%;
-  
 }
 
 /*first section */
@@ -339,7 +349,6 @@ label {
 .half-subtitles {
   width: 50%;
   float: left;
-  padding: 30px 0;
 }
 
 .half-subtitles h2{
@@ -349,6 +358,7 @@ label {
 /* logos */
 .big-square, .textarea-logo {
   float: left;
+  margin-top: 30px;
 }
 
 .big-square {
@@ -454,12 +464,9 @@ label {
 }
 
 .box .half-subtitles {
-  color: #580000;
-}
-
-.half-subtitles {
   width: 50%;
   float: left;
+  color: #580000;
   padding: 50px 0;
 }
 
