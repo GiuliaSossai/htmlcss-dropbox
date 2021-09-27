@@ -357,6 +357,10 @@ label {
   position: relative;
 }
 
+.square:active {
+  background-color: magenta;
+}
+
 .square img {
   width: 50%;
   position: absolute;
@@ -484,16 +488,44 @@ label {
 .question {
   font-size: 16px;
   font-weight: bold;
-  padding: 30px 0;
+  padding: 20px 0;
   display: inline-block;
+  width: 70%;
 }
 
 .item {
-  padding: 30px 0;
+  padding: 20px 0;
   position: absolute;
   right: 30px;
   display: inline-block;
 }
+
+.item .fa-chevron-up, .p-hover {
+  display: none;
+}
+
+.item:hover .fa-chevron-down {
+  display: none;
+}
+
+.item:hover .fa-chevron-up {
+  display: block;
+}
+
+.item:hover + .p-hover {
+  display: block;
+}
+
+.p-hover {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+
+
+
 
 /*********** FOOTER *********/
 
