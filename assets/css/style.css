@@ -15,7 +15,7 @@ body {
 
 .container {
   width: 85%;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -52,10 +52,6 @@ section {
   background-color: rgb(230, 224, 224);
 }
 
-.big-paragraph {
-  line-height: 30px;
-}
-
 .section-title {
   padding: 20px 0;
 }
@@ -67,6 +63,7 @@ h2.subtitles {
 }
 
 .text-link, .fa-check{
+  font-size: 13px;
   color: #0061FF;
 }
 
@@ -93,8 +90,8 @@ header {
 }
 
 header .row {
-  height: 78px;
-  line-height: 78px;
+  height: 76px;
+  line-height: 76px;
 }
 
 .row .header-left {
@@ -123,7 +120,7 @@ header .row {
 
 .main-nav ul li {
   display: inline-block;
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .main-nav ul li a {
@@ -137,8 +134,8 @@ header .row {
   vertical-align: middle;
 }
 
-.main-nav ul li a:hover {
-  border-bottom: 1px solid #000;
+.main-nav ul li:hover {
+  border-bottom: 2px solid #000;
 }
 
 /* secondo bonus */
@@ -191,7 +188,7 @@ header .row {
 
 .content {
   width: 90%;
-  max-width: 1180px;
+  max-width: 1144px;
   margin: 0 auto;
 }
 
@@ -205,6 +202,7 @@ header .row {
 .jumbotron .textarea {
   width: 35%;
   float: left;
+  padding: 10px 25px 10px 0;
 }
 
 .textarea p {
@@ -240,24 +238,27 @@ label {
   width: calc(100% / 3 - 20px);
   border: 1px solid lightgray;
   margin-bottom: 30px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .column-top {
+  font-size: 13px;
   text-align: center;
-  padding: 5px 0;
+  padding: 7px 0;
   border-bottom: 1px solid lightgray;
 }
 
 .column-body {
-  padding: 20px 10px 30px 10px;
+  padding: 20px;
 }
 
 .column-body h3, .column-left h3 {
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .little-title {
+  font-size: 14px;
   font-weight: bold;
   margin: 10px 0;
 }
@@ -268,7 +269,7 @@ label {
 }
 
 .line.line-column {
-  width: 40%;
+  width: 25%;
   padding-bottom: 40px;
 }
 
@@ -340,7 +341,12 @@ label {
 }
 
 .second-textarea h3 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.second-textarea p {
+  font-size: 15px;
+  line-height: 25px;
 }
 
 #partner {
@@ -361,7 +367,16 @@ label {
   width: 100%;
 }
 
+.column-text {
+  padding-right: 10px;
+}
+
+.column-text h3 {
+  font-size: 20px;
+}
+
 .column-text p{
+  font-size: 15px;
   margin: 30px 0;
 }
 
@@ -382,7 +397,7 @@ label {
 }
 
 .big-square {
-  width: 30vw;
+  width: 30%;
   height: 30vw;
 }
 
@@ -404,11 +419,6 @@ label {
   top: 50%;
   filter: invert(1);
 }
-
-/*.square-logo {        alternatica per centrare img
-  text-align: center;
-  vertical-align: middle;
-}*/
 
 .square.top-left {
   float: left;
@@ -456,7 +466,7 @@ label {
 
 /* textarea (logo) */
 .textarea-logo {
-  width: 40vw;
+  width: 40%;
   height: 30vw;
   text-align: left;
   background-color: #F5F5F5;
@@ -469,12 +479,13 @@ label {
 }
 
 .textarea-logo .line {
-  border-bottom: 1px solid gray;
+  width: 8%;
+  border-bottom: 1px solid #D2D2D5;
 }
 
 .textarea-logo p {
-  font-family: 14px;
-  margin: 20px 0;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
 
 
@@ -487,14 +498,16 @@ label {
   width: 50%;
   float: left;
   color: #580000;
-  padding: 50px 0;
+  padding-top: 70px;
+  margin-bottom: 50px;
 }
 
 .button-area {
   width: 50%;
   float: right;
   text-align: right;
-  padding: 50px 0;
+  padding-top: 70px;
+  margin-bottom: 50px;
 }
 
 .button-area .btn.blank-btn {
@@ -518,7 +531,7 @@ label {
 }
 
 .question {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   padding: 20px 0;
   display: inline-block;
@@ -588,6 +601,7 @@ footer ul li {
 }
 
 footer ul li a {
+  font-size: 14px;
   text-decoration: none;
   color: #fff;
 }
@@ -597,7 +611,8 @@ footer .line {
 }
 
 .language {
-  color: lightgray;
+  font-size: 13px;
+  color: #999999;
 }
 
 
